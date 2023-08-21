@@ -31,11 +31,6 @@ churn rate = DIVIDE(CALCULATE(COUNT('01 Churn-Dataset'[customerID]),'01 Churn-Da
 
 gender % = DIVIDE(CALCULATE(COUNT('01 Churn-Dataset'[customerID]),'01 Churn-Dataset'[gender] = "Female"),COUNT('01 Churn-Dataset'[customerID]))* 100
 
-Device protection% = DIVIDE(CALCULATE(COUNT('01 Churn-Dataset'[customerID]),'01 Churn-Dataset'[DeviceProtection] = "Yes"),COUNT('01 Churn-Dataset'[customerID]))*100
-
-
-paper % = DIVIDE( CALCULATE(COUNT('01 Churn-Dataset'[customerID]),'01 Churn-Dataset'[paperlessBilling] = "Yes"),COUNT('01 Churn-Dataset'[customerID]))* 100
-
 senior % = DIVIDE(CALCULATE(COUNT('01 Churn-Dataset'[customerID]),'01 Churn-Dataset'[SeniorCitizen] = "Yes"),COUNT('01 Churn-Dataset'[customerID]))*100
 
 
