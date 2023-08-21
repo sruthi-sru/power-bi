@@ -8,7 +8,8 @@ Get the feedbak for the dataset.
 
 Dashboard for the analysis is shown below:
 
-<img width="1042" alt="Screenshot 2021-08-21 at 3 03 22 PM" src="https://github.com/sruthi-sru/power-bi/assets/71058362/adf527dd-5c3b-4bc2-ba13-1fe834740042">
+<img width="1040" alt="Screenshot 2021-08-21 at 3 03 22 PM" src="https://github.com/sruthi-sru/power-bi/assets/71058362/b2789eb6-24a6-42cf-a684-6fddd0f272cd">
+
 
 
 
