@@ -1,4 +1,4 @@
-# Customer Retention Analysis
+<img width="1040" alt="Screenshot 2021-08-21 at 3 03 22 PM" src="https://github.com/sruthi-sru/power-bi/assets/71058362/9ec3706b-be79-4b5c-bfd2-9e0aea685def"># Customer Retention Analysis
 # Problem statement
 To understand the churn rate of the given dataset and analyse the different factors involved in the customer retention.
 Create a dashboard for the reflecting the KPIs.
@@ -24,4 +24,22 @@ Dashboard for the analysis is shown below:
 * In Internet Service, Fiber Optics is used more.
   
 * Month to month contrat is highest.
+
+# Calculations 
+
+churn rate = DIVIDE(CALCULATE(COUNT('01 Churn-Dataset'[customerID]),'01 Churn-Dataset'[Churn] = "Yes"),COUNT('01 Churn-Dataset'[customerID]))* 100
+
+gender % = DIVIDE(CALCULATE(COUNT('01 Churn-Dataset'[customerID]),'01 Churn-Dataset'[gender] = "Female"),COUNT('01 Churn-Dataset'[customerID]))* 100
+
+Device protection% = DIVIDE(CALCULATE(COUNT('01 Churn-Dataset'[customerID]),'01 Churn-Dataset'[DeviceProtection] = "Yes"),COUNT('01 Churn-Dataset'[customerID]))*100
+
+
+paper % = DIVIDE( CALCULATE(COUNT('01 Churn-Dataset'[customerID]),'01 Churn-Dataset'[paperlessBilling] = "Yes"),COUNT('01 Churn-Dataset'[customerID]))* 100
+
+senior % = DIVIDE(CALCULATE(COUNT('01 Churn-Dataset'[customerID]),'01 Churn-Dataset'[SeniorCitizen] = "Yes"),COUNT('01 Churn-Dataset'[customerID]))*100
+
+
+
+
+
 
