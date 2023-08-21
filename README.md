@@ -13,9 +13,13 @@ Dashboard for the analysis is shown below:
 
 # Feedbacks
 
-* Percentage of male and female are same. (50%)
+* Percentage of male and female are same 50%.
+ 
 * 16% of customers are only Senior Citizens.
+  
 * churn rate is 27% from total of 7043 Customers.
+  
 * In Internet Service, Fiber Optics is used more.
+  
 * Month to month contrat is highest.
 
