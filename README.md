@@ -1,4 +1,4 @@
-<img width="1040" alt="Screenshot 2021-08-21 at 3 03 22 PM" src="https://github.com/sruthi-sru/power-bi/assets/71058362/9ec3706b-be79-4b5c-bfd2-9e0aea685def"># Customer Retention Analysis
+# Customer Retention Analysis
 # Problem statement
 To understand the churn rate of the given dataset and analyse the different factors involved in the customer retention.
 Create a dashboard for the reflecting the KPIs.
